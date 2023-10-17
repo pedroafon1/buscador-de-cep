@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Buscador de CEP</title>
+</head>
+<body>
+  
+  <div class="area-busca">
+    <input type="text" id="js-input-cep">
+    <button id="js-btn-buscar-cep">Buscar CEP</button>
+  </div>
+
+  <p class="msg-error" id="js-error">Preencha o campo por favor!!!</p>
+
+  <div class="todos-dados" id="js-dados">
+    <h2>Dados do CEP</h2>
+    <div class="campo-inputs">
+      <label for="">Bairro</label>
+      <input type="text" id="js-input-bairro" readonly>
+      <label for="">CEP</label>
+      <input type="number" id="js-input-cep" readonly>
+      <label for="">Logradouro</label>
+      <input type="text" id="js-input-logradouro" readonly>
+      <label for="">Estado</label>
+      <input type="text" id="js-input-estado" readonly>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
